@@ -1,0 +1,26 @@
+input[type=text], input[type=password] {
+  width: 200px;
+  padding: 15px;
+  margin: 15px 0 32px 0;
+  display: inline-block;
+
+}
+.registerbtn {
+  padding: 16px 20px;
+  margin: 8px 0;
+  cursor: pointer;
+  width: 200px;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+.reg{
+   text-align: center;
+}
+
+.profile{
+   margin-top: 100px;
+   text-align: center;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <title>Регистрация</title>
+</head>
+<body>
+   <div class="reg">
+     <h1>Регистрация</h1>
+     
+     <label for="email"><b>Ваш логин (email):</b></label>
+     <br>
+     <input type="text" placeholder="" name="email" required>
+     <br>
+ 
+     <label for="psw"><b>Пароль:</b></label>
+     <br>
+     <input type="password" placeholder="" name="psw" required>
+     <br>
+
+     <label for="information"><b>Информация о себе:</b></label>
+     <br>
+     <input type="text" placeholder="Кузнецова Ирина" name="info" required>
+     <br>
+     <input type="checkbox" ><label for="subscribe"><b>Подписаться на рассылку</b></label>
+
+
+     <br>
+     <button type="submit" class="registerbtn">Зарегистрироваться</button>
+   </div>
+
+
+
+
+
+
+
+   <div class="profile"> 
+      <h1>Профиль</h1>
+      Ваш пол: 
+      <input type="radio" id="contactChoice1"
+     name="contact" value="man" checked>
+    <label for="contactChoice1">Мужской</label>
+    <input type="radio" id="contactChoice1"
+     name="contact" value="woman" checked>
+    <label for="contactChoice1">Женский</label>
+    <br>
+   
+      Месяц и год рождения:
+      <br>
+      <select name="theme">
+         <option value="January">Январь</option>
+         <option value="February">Февраль</option>
+         <option value="March">Март</option>
+         <option value="April">Апрель</option>
+         <option value="May">Май</option>
+         <option value="June">Июнь</option>
+         <option value="July">Июль</option>
+         <option value="August">Август</option>
+         <option value="September">Сентябрь</option>
+         <option value="October">Октябрь</option>
+         <option value="November">Ноябрь</option>
+         <option value="December">Декабрь</option>
+      </select>
+      <select name="theme">
+         <option value="2000">2000</option>
+         <option value="2001">2001</option>
+         <option value="2002">2002</option>
+         <option value="2003">2003</option>
+         <option value="2004">2004</option>
+         <option value="2005">2005</option>
+         <option value="2006">2006</option>
+         <option value="2007">2007</option>
+         <option value="2008">2008</option>
+         <option value="2009">2009</option>
+         <option value="2010">2010</option>
+         <option value="2011">2011</option>
+      </select>
+      <br><br><br>
+      Знакомые технологии:
+      <select multiple="multiple">
+         <option value="HTML">HTML</option>
+         <option value="CSS">CSS</option>
+         <option value="JavaScript">JavaScript</option>
+         <option value="Node.js">Node.js</option>
+      </select>
+      <br>
+      Фото:
+      <input type="file"> 
+         <div>
+            <br>
+            <button type="submit">Сохранить</button>
+          </div>
+   </div>
+</body>
+</html>
